@@ -59,10 +59,18 @@ def convert(src_path, out_path, max_w=MAX_W):
 
 
 def nav(pages, current):
-    items = [("index.html", "Overview", "index"), ("talk.html", "Talk", "talk")]
-    items += [(f"{p['id']}.html", p["nav"], p["id"]) for p in pages]
-    links = "".join(f'<a href="{h}"{" class=\"on\"" if k == current else ""}>{esc(t)}</a>' for h, t, k in items)
-    return f'<nav class="top">{links}</nav>'
+    """Top menu: Overview and Talk, then the topic pages grouped (Method / Results / More) with a small group label."""
+    def link(h, t, k):
+        return f'<a href="{h}"{" class=\"on\"" if k == current else ""}>{esc(t)}</a>'
+    parts = [f'<div class="grp">{link("index.html", "Overview", "index")}{link("talk.html", "Talk", "talk")}</div>']
+    groups = []
+    for p in pages:
+        if not groups or groups[-1][0] != p["group"]:
+            groups.append((p["group"], []))
+        groups[-1][1].append(link(f"{p['id']}.html", p["nav"], p["id"]))
+    for g, links in groups:
+        parts.append(f'<div class="grp"><span class="glab">{esc(g)}</span>{"".join(links)}</div>')
+    return f'<nav class="top">{"".join(parts)}</nav>'
 
 
 def shell(title, body, pages, current):
@@ -92,12 +100,12 @@ def shell(title, body, pages, current):
 """
 
 
-def figure_card(f, label=""):
+def figure_card(f, label="", msg=""):
     w, h = f["size"]
     lab = f'<span class="slide">{esc(label)}</span>' if label else ""
     return f"""<figure class="card" id="{esc(f['id'])}">
   {lab}<h3><a class="anchor" href="#{esc(f['id'])}">{esc(f['title'])}</a></h3>
-  <a class="zoom" href="{esc(f['img'])}"><img src="{esc(f['img'])}" alt="{esc(f['title'])}" width="{w}" height="{h}" loading="lazy"></a>
+  <a class="zoom" href="{esc(f['img'])}"><img src="{esc(f['img'])}" alt="{esc(f['title'])}" width="{w}" height="{h}" loading="lazy"></a>{msg}
   <details><summary>About this figure</summary><p>{esc(f['caption'])}</p><p class="src">{esc(f['src'])}</p></details>
 </figure>"""
 
@@ -221,8 +229,16 @@ def main():
         extra = skill_tables() if p["id"] == "skill" else ""
         (ROOT / f"{p['id']}.html").write_text(shell(p["title"], page_html(p, pf, extra), pages, p["id"]), encoding="utf-8")
     talk = sorted([f for f in figs if f.get("talk")], key=lambda f: f["talk_order"])
-    body = ["<h1>Talk</h1>", '<p class="lede">The figures of the PLINIUS 2026 talk, by slide.</p>']
-    body += [figure_card(dict(f, id=f"talk-{f['id']}"), f"Slide {f['slide']}") for f in talk]
+    body = ["<h1>Talk</h1>", '<p class="lede">The figures of the Plinius 19 talk, by slide, with the key messages shown on each '
+            'results slide.</p>']
+    slides = {t["src"]: t for t in json.loads((ROOT / "data" / "talk.json").read_text())}
+    for f in talk:
+        t = slides.get(f["src"], {})
+        msg = ""
+        if t.get("headline"):
+            items = "".join(f"<li>{esc(b)}</li>" for b in t.get("bullets", []))
+            msg = f'<div class="msg"><p>{esc(t["headline"])}</p><ul>{items}</ul></div>'
+        body.append(figure_card(dict(f, id=f"talk-{f['id']}"), f"Slide {f['slide']}", msg))
     (ROOT / "talk.html").write_text(shell("Talk", "\n".join(body), pages, "talk"), encoding="utf-8")
     (ROOT / "index.html").write_text(shell("Overview", index_html(ov, pages, figs, talk, src_root, by_src), pages, "index"),
                                      encoding="utf-8")
