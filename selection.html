@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What the CRO selects · Plinius 19 · Mediterranean heatwave drivers</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">Plinius 19 · Drivers of Mediterranean heatwaves</a>
+    <nav class="top"><a href="index.html">Overview</a><a href="talk.html">Talk</a><a href="setup.html">Study design</a><a href="skill.html">Skill</a><a href="selection.html" class="on">Selection</a><a href="lags.html">Lags</a><a href="anomalies.html">Anomalies</a><a href="versions.html">R / D / W</a><a href="crosssite.html">Cross-site</a><a href="eof.html">EOFs</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<h1>What the CRO selects</h1>
+<p class="lede">Selected clusters, consistency across seeds and sharing between sites.</p>
+<nav class="toc"><a href="#sec-selection-matrices">Selection matrices <span class="n">2</span></a><a href="#sec-robust-within-year-precursors-by-site">Robust within-year precursors by site <span class="n">2</span></a><a href="#sec-robust-precursors-across-seeds">Robust precursors across seeds <span class="n">1</span></a><a href="#sec-selection-frequency-of-clusters">Selection frequency of clusters <span class="n">2</span></a><a href="#sec-selection-frequency-maps">Selection frequency maps <span class="n">3</span></a><a href="#sec-sharing-between-sites">Sharing between sites <span class="n">2</span></a></nav>
+<section><h2 id="sec-selection-matrices">Selection matrices</h2>
+<figure class="card" id="presentacion-figuras-04a-matrix-local">
+  <h3><a class="anchor" href="#presentacion-figuras-04a-matrix-local">Local fields: clusters selected at each site by 0–3 of the 3 CRO seeds</a></h3>
+  <a class="zoom" href="img/selection/presentacion-figuras-04a-matrix-local.webp"><img src="img/selection/presentacion-figuras-04a-matrix-local.webp" alt="Local fields: clusters selected at each site by 0–3 of the 3 CRO seeds" width="1800" height="1012" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Rows are sites and columns are the clusters of each local field, ordered west to east by centroid. Cell colour = number of seeds (0–3) that selected the cluster, black frame = all 3 seeds, star = the site&#x27;s home cluster (the one containing the site); each panel title gives the observed number of 3/3 pairs and the chance expectation. Over all fields and the three indices, 99 site–driver pairs are selected by all 3 seeds vs 71.6 expected by chance, and the home Tmax cluster is selected by at least 2 of 3 seeds at all 12 sites.</p><p class="src">presentacion/figuras/04a_matrix_local.png</p></details>
+</figure>
+<figure class="card" id="presentacion-figuras-04b-matrix-remote">
+  <h3><a class="anchor" href="#presentacion-figuras-04b-matrix-remote">Remote fields and indices: clusters selected at each site by 0–3 seeds</a></h3>
+  <a class="zoom" href="img/selection/presentacion-figuras-04b-matrix-remote.webp"><img src="img/selection/presentacion-figuras-04b-matrix-remote.webp" alt="Remote fields and indices: clusters selected at each site by 0–3 seeds" width="1800" height="1012" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Same layout as the local matrix, for the seven remote fields and the NAO, ENSO and IOD indices; the home cluster is not marked. The number of pairs selected by all 3 seeds is at chance level except for North Atlantic SST (5 vs 2.4 expected) and the indices (4 vs 1.7). &#x27;Trop −OLR&#x27; is the net top-of-atmosphere longwave flux (= −OLR).</p><p class="src">presentacion/figuras/04b_matrix_remote.png</p></details>
+</figure>
+</section>
+<section><h2 id="sec-robust-within-year-precursors-by-site">Robust within-year precursors by site</h2>
+<figure class="card" id="general-figuras-slides-s02a-robust-matrix">
+  <h3><a class="anchor" href="#general-figuras-slides-s02a-robust-matrix">Robust within-year precursors per site and field: seeds with ≥1 driver</a></h3>
+  <a class="zoom" href="img/selection/general-figuras-slides-s02a-robust-matrix.webp"><img src="img/selection/general-figuras-slides-s02a-robust-matrix.webp" alt="Robust within-year precursors per site and field: seeds with ≥1 driver" width="1800" height="1013" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Each cell gives the number of seeds (n/N) in which the CRO selected at least one driver of that field that is robust within year (train year-permutation p &lt; 0.05, same sign with p &lt; 0.05 on test, and a significant within-year composite), with the envelope of their lag windows (days) below; shading is the share of seeds, a black box marks survival of Benjamini–Hochberg FDR (q = 0.05), and red r# gives the number of seeds with a driver of that field that is robust but not within year. All 48 robust within-year drivers are local, mostly Tmax and Z500; no remote field or index gives one. This slide leaves out the small grey counts of seeds that selected each field, which the non-slide version shows.</p><p class="src">general/figuras/slides/S02a_robust_matrix.png</p></details>
+</figure>
+<figure class="card" id="general-figuras-slides-s02b-robust-clusters">
+  <h3><a class="anchor" href="#general-figuras-slides-s02b-robust-clusters">Robust within-year precursors per site and cluster across the 3 seeds</a></h3>
+  <a class="zoom" href="img/selection/general-figuras-slides-s02b-robust-clusters.webp"><img src="img/selection/general-figuras-slides-s02b-robust-clusters.webp" alt="Robust within-year precursors per site and cluster across the 3 seeds" width="1800" height="1013" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Columns are all clusters that are robust in at least one run; cells give the seeds in which that cluster is also robust within year (n/N), shaded by share of seeds, and red r# marks clusters robust only in raw composites. The same cluster is robust within year in all 3 seeds only for Monaco (L_z500_c2), Albania (L_z500_c8), Greece (L_t2m_max_c2), Egypt (L_t2m_max_c10) and Libya (L_t2m_max_c7).</p><p class="src">general/figuras/slides/S02b_robust_clusters.png</p></details>
+</figure>
+</section>
+<section><h2 id="sec-robust-precursors-across-seeds">Robust precursors across seeds</h2>
+<figure class="card" id="general-figuras-02a-robust-matrix">
+  <h3><a class="anchor" href="#general-figuras-02a-robust-matrix">Robust within-year precursors per site and field: seeds with ≥1 such driver</a></h3>
+  <a class="zoom" href="img/selection/general-figuras-02a-robust-matrix.webp"><img src="img/selection/general-figuras-02a-robust-matrix.webp" alt="Robust within-year precursors per site and field: seeds with ≥1 such driver" width="1800" height="887" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Rows are sites (seeds available in brackets) and columns are local fields (lags 3–30), remote fields (lags 3–90) and indices; shading and n/N give the share of seeds with at least one robust within-year driver (year-permutation p &lt; 0.05 in train, same sign with p &lt; 0.05 in test, and a within-year composite that is significant in train with the same sign in train and test), with the envelope of their lag windows (days) below. Black box = survives Benjamini–Hochberg FDR on train p; red r# = robust in # seeds but not within year; small grey number = seeds that selected the field. Only local Tmax and Z500 reach 3/3 seeds (9 site–field pairs), and no remote field or index has a robust within-year driver.</p><p class="src">general/figuras/02a_robust_matrix.png</p></details>
+</figure>
+</section>
+<section><h2 id="sec-selection-frequency-of-clusters">Selection frequency of clusters</h2>
+<figure class="card" id="general-figuras-04a-selection-frequency-all-fields">
+  <h3><a class="anchor" href="#general-figuras-04a-selection-frequency-all-fields">Selection frequency of each KMeans cluster across the 36 runs, by field</a></h3>
+  <a class="zoom" href="img/selection/general-figuras-04a-selection-frequency-all-fields.webp"><img src="img/selection/general-figuras-04a-selection-frequency-all-fields.webp" alt="Selection frequency of each KMeans cluster across the 36 runs, by field" width="1800" height="4392" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Left: share of the 36 runs that select each node&#x27;s KMeans cluster (fixed scale 0–0.7); right: share of runs in which that cluster is robust within year (0–0.25); dashed lines are cluster boundaries, circles are the 12 sites, and &#x27;chance&#x27; in each panel title is the rate expected if the CRO picked the same number of clusters of that field per run at random. Observed selection frequencies range from 0.22 to 0.64 against chance rates of 0.31–0.50, and no cluster is selected (or robust within year) more often than chance after BH correction, so no yellow outline appears. The test pools all sites and seeds, which are not independent, so its p-values are only indicative.</p><p class="src">general/figuras/04a_selection_frequency_all_fields.png</p></details>
+</figure>
+<figure class="card" id="general-figuras-04b-selection-by-site-local">
+  <h3><a class="anchor" href="#general-figuras-04b-selection-by-site-local">Selected local clusters per site: share of seeds selecting each cluster</a></h3>
+  <a class="zoom" href="img/selection/general-figuras-04b-selection-by-site-local.webp"><img src="img/selection/general-figuras-04b-selection-by-site-local.webp" alt="Selected local clusters per site: share of seeds selecting each cluster" width="1800" height="1703" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Rows are sites (3 seeds each) and columns are the KMeans clusters (dashed boundaries) of local Tmax, Z500, MSLP, soil moisture, precipitation and Mediterranean SST, coloured by the share of that site&#x27;s seeds that selected each cluster (0–1). The star marks the site, and a thick black outline marks clusters that are robust within year in at least one seed of that site.</p><p class="src">general/figuras/04b_selection_by_site_local.png</p></details>
+</figure>
+</section>
+<section><h2 id="sec-selection-frequency-maps">Selection frequency maps</h2>
+<figure class="card" id="general-figuras-slides-s04a-selection-frequency-local">
+  <h3><a class="anchor" href="#general-figuras-slides-s04a-selection-frequency-local">Selection frequency of each local cluster across the 36 runs</a></h3>
+  <a class="zoom" href="img/selection/general-figuras-slides-s04a-selection-frequency-local.webp"><img src="img/selection/general-figuras-slides-s04a-selection-frequency-local.webp" alt="Selection frequency of each local cluster across the 36 runs" width="1800" height="1013" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Each grid point is coloured by the share of the 36 runs in which the CRO selected its cluster (fixed scale 0–0.7); dashed lines are cluster boundaries, circles are the 12 sites and grey areas have no data (sea for soil moisture, land for SST). Panel titles give the field&#x27;s chance rate (its mean selection rate per cluster). No cluster is selected more often than chance (pooled binomial test over all sites and seeds, BH q = 0.05).</p><p class="src">general/figuras/slides/S04a_selection_frequency_local.png</p></details>
+</figure>
+<figure class="card" id="general-figuras-slides-s04b-robust-frequency-local">
+  <h3><a class="anchor" href="#general-figuras-slides-s04b-robust-frequency-local">How often each local cluster is a robust within-year driver (36 runs)</a></h3>
+  <a class="zoom" href="img/selection/general-figuras-slides-s04b-robust-frequency-local.webp"><img src="img/selection/general-figuras-slides-s04b-robust-frequency-local.webp" alt="How often each local cluster is a robust within-year driver (36 runs)" width="1800" height="1013" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Each grid point is coloured by the share of the 36 runs in which its cluster is a robust within-year driver (scale capped at 0.25); dashed lines are cluster boundaries and circles are the 12 sites. Panel titles give the chance rate, i.e. the rate if as many clusters per run as were robust within year had been picked at random. The most frequent are Tmax and Z500 clusters (up to 7 of 36 runs); none is robust within year more often than chance under the pooled test.</p><p class="src">general/figuras/slides/S04b_robust_frequency_local.png</p></details>
+</figure>
+<figure class="card" id="general-figuras-slides-s04c-selection-frequency-remote">
+  <h3><a class="anchor" href="#general-figuras-slides-s04c-selection-frequency-remote">Selection frequency of each remote cluster across the 36 runs</a></h3>
+  <a class="zoom" href="img/selection/general-figuras-slides-s04c-selection-frequency-remote.webp"><img src="img/selection/general-figuras-slides-s04c-selection-frequency-remote.webp" alt="Selection frequency of each remote cluster across the 36 runs" width="1800" height="1013" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Share of the 36 runs in which the CRO selected each remote cluster (fixed scale 0–0.7) for the North Atlantic–Europe, North Atlantic SST, tropical and Asia–North Pacific fields; panel titles give each field&#x27;s chance rate. No remote cluster is selected more often than chance (pooled binomial test, BH q = 0.05), and none is ever a robust within-year driver, so there is no robust-frequency map for remote fields.</p><p class="src">general/figuras/slides/S04c_selection_frequency_remote.png</p></details>
+</figure>
+</section>
+<section><h2 id="sec-sharing-between-sites">Sharing between sites</h2>
+<figure class="card" id="presentacion-figuras-04d-similarity">
+  <h3><a class="anchor" href="#presentacion-figuras-04d-similarity">Similarity of the 3/3 cluster sets between sites (Jaccard) vs distance</a></h3>
+  <a class="zoom" href="img/selection/presentacion-figuras-04d-similarity.webp"><img src="img/selection/presentacion-figuras-04d-similarity.webp" alt="Similarity of the 3/3 cluster sets between sites (Jaccard) vs distance" width="1800" height="1012" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Left: Jaccard overlap between the sets of clusters (13 fields, indices excluded) that each pair of sites selected in all 3 seeds; dots mark the 2 of 66 pairs with p &lt; 0.05 against the chance model (Sardinia–Tunisia and Turkey–Egypt), neither significant after FDR correction. Right: Jaccard vs distance between sites, points coloured by the overlap of heatwave days (φ); black lines show the observed mean and grey lines the chance mean per distance band (&lt; 1000, 1000–2000, &gt; 2000 km). Sites share no more clusters than expected by chance (mean Jaccard 0.058 vs 0.068, p = 0.93), and similarity does not depend on distance (Spearman ρ = −0.03).</p><p class="src">presentacion/figuras/04d_similarity.png</p></details>
+</figure>
+<figure class="card" id="presentacion-figuras-04c-shared-local">
+  <h3><a class="anchor" href="#presentacion-figuras-04c-shared-local">Local clusters coloured by the number of sites selecting them in 3/3 seeds</a></h3>
+  <a class="zoom" href="img/selection/presentacion-figuras-04c-shared-local.webp"><img src="img/selection/presentacion-figuras-04c-shared-local.webp" alt="Local clusters coloured by the number of sites selecting them in 3/3 seeds" width="1800" height="1012" loading="lazy"></a>
+  <details><summary>About this figure</summary><p>Each local cluster is coloured by how many of the 12 sites selected it in all 3 seeds (white = no site, light grey = nodes not used); black dots are the sites. The highest count is soil moisture c6, north of the Black Sea (5 sites vs 1.7 expected by chance, p = 0.013), but it is not significant after false-discovery-rate correction (q = 0.73); no cluster is shared by more sites than chance after that correction.</p><p class="src">presentacion/figuras/04c_shared_local.png</p></details>
+</figure>
+</section>
+</main>
+<footer class="wrap">STCO-FS results · train 1950–2010 · test 2011–2021</footer>
+<div id="lightbox" hidden><img alt=""><p></p></div>
+<script src="assets/site.js"></script>
+</body>
+</html>

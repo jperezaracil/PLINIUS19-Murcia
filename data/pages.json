@@ -1,0 +1,58 @@
+[
+ {
+  "id": "setup",
+  "nav": "Study design",
+  "title": "Study design",
+  "blurb": "Sites, predictor fields, clusters and the CRO wrapper.",
+  "cover": "presentacion/figuras/02_clusters_local.png"
+ },
+ {
+  "id": "skill",
+  "nav": "Skill",
+  "title": "Skill and overfitting",
+  "blurb": "How well heatwave days are predicted in the test years (2011–2021).",
+  "cover": "general/figuras/slides/S01a_skill_map.png"
+ },
+ {
+  "id": "selection",
+  "nav": "Selection",
+  "title": "What the CRO selects",
+  "blurb": "Selected clusters, consistency across seeds and sharing between sites.",
+  "cover": "presentacion/figuras/04a_matrix_local.png"
+ },
+ {
+  "id": "lags",
+  "nav": "Lags",
+  "title": "Time lags",
+  "blurb": "How many days ahead the selected drivers act.",
+  "cover": "presentacion/figuras/06b_lag_distribution.png"
+ },
+ {
+  "id": "anomalies",
+  "nav": "Anomalies",
+  "title": "Anomalies at the selected clusters",
+  "blurb": "Mean anomaly before heatwave days at the clusters and lags chosen by the CRO.",
+  "cover": "presentacion/figuras/05c_atlas_L_t2m_max.png"
+ },
+ {
+  "id": "versions",
+  "nav": "R / D / W",
+  "title": "Raw, detrended and within-year composites",
+  "blurb": "The same composites with the trend or the interannual signal removed.",
+  "cover": "tres_versiones/figuras/sintesis/S1_site_cluster_links.png"
+ },
+ {
+  "id": "crosssite",
+  "nav": "Cross-site",
+  "title": "Cross-site composites and site groups",
+  "blurb": "Pre-heatwave composites compared across sites and fixed windows.",
+  "cover": "general/figuras/slides/S05c_site_similarity.png"
+ },
+ {
+  "id": "eof",
+  "nav": "EOFs",
+  "title": "EOFs vs clusters",
+  "blurb": "Rotated EOFs, the clusters and the pre-heatwave patterns (Z500).",
+  "cover": "eof/figuras/L_z500_2b_reof_selected.png"
+ }
+]

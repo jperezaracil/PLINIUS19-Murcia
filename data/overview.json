@@ -1,0 +1,56 @@
+{
+ "title": "Identifying the spatio-temporal drivers of Mediterranean heatwaves: a machine learning feature selection framework",
+ "hero": "presentacion/figuras/01_localizaciones_B.png",
+ "talk_cover": "presentacion/figuras/05c_atlas_L_z500.png",
+ "stats": [
+  {
+   "value": "10 / 12",
+   "label": "sites with skill"
+  },
+  {
+   "value": "0.73–0.90",
+   "label": "test AUC at those sites"
+  },
+  {
+   "value": "0.38 vs 0.19",
+   "label": "test F1 vs always-yes"
+  },
+  {
+   "value": "3–17 d",
+   "label": "lead of robust precursors"
+  },
+  {
+   "value": "71",
+   "label": "candidate drivers"
+  },
+  {
+   "value": "36",
+   "label": "CRO runs (12 sites × 3 seeds)"
+  }
+ ],
+ "kicker": "19th Plinius Conference · Murcia · Wednesday 7 October 2026, 09:30 · Session PL1 · Plinius19-89",
+ "authors": "Jorge Pérez-Aracil, César Peláez-Rodríguez, Ronan McAdam, Antonello Squintu, Laura-María Cornejo-Bueno, Enrico Scoccimarro, Jürg Luterbacher, Matteo Giuliani, Elena Xoplaki, Andrea Castelleti, Sancho Salcedo-Sanz",
+ "steps": [
+  {
+   "img": "assets/talk/step0.webp",
+   "label": "Step 0 · Data extraction and preparation"
+  },
+  {
+   "img": "assets/talk/step1.webp",
+   "label": "Step 1 · Clustered and lagged inputs, heatwave target"
+  },
+  {
+   "img": "assets/talk/step2.webp",
+   "label": "Step 2 · Wrapper feature selection and detection"
+  }
+ ],
+ "conclusions": [
+  "STCO-FS skilfully predicts summer heatwave days at 10 of 12 Mediterranean sites.",
+  "Skill is highest in the central and eastern Mediterranean; the western sites show little predictability.",
+  "Robust precursors are local and short-range: warm Tmax and a Z500 ridge over or next to the site, about 3–17 days ahead.",
+  "The CRO selects all eight Z500 clusters somewhere, but only five of them (four regional modes) show a significant anomaly before heatwaves in both train and test; the Alps–Balkans ridge does so at five neighbouring sites.",
+  "Dry soils are often selected 10–30 days ahead, but they are robust only in Turkey.",
+  "The KMeans clusters behave as varimax-rotated EOFs: regional modes of variability."
+ ],
+ "credits": "Universidad de Alcalá · CMCC · MedEWSa · ARTEMIS · Funded by the European Union"
+}
