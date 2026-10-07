@@ -9,8 +9,10 @@
     if (i < 0 || i >= links.length) return;
     cur = i;
     img.src = links[i].getAttribute('href');
-    var h = links[i].closest('figure').querySelector('h3 a');
-    cap.textContent = h ? h.textContent : '';
+    var fig = links[i].closest('figure');
+    var h = fig && fig.querySelector('h3 a, figcaption');
+    var im = links[i].querySelector('img');
+    cap.textContent = h ? h.textContent : (im ? im.alt : '');
     box.hidden = false;
   }
   function hide() { box.hidden = true; img.removeAttribute('src'); cur = -1; }

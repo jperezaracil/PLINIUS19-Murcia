@@ -4,20 +4,20 @@
  "talk_cover": "presentacion/figuras/05c_atlas_L_z500.png",
  "stats": [
   {
-   "value": "10 / 12",
-   "label": "sites with skill"
+   "value": "9 / 12",
+   "label": "sites with skill beyond the warming trend"
   },
   {
-   "value": "0.73–0.90",
+   "value": "0.78–0.90",
    "label": "test AUC at those sites"
   },
   {
    "value": "0.38 vs 0.19",
-   "label": "test F1 vs always-yes"
+   "label": "test F1 vs always 'heatwave'"
   },
   {
-   "value": "3–17 d",
-   "label": "lead of robust precursors"
+   "value": "3–20 d",
+   "label": "lead of confirmed precursors (3 d = shortest lag allowed)"
   },
   {
    "value": "71",
@@ -29,7 +29,7 @@
   }
  ],
  "kicker": "19th Plinius Conference · Murcia · Wednesday 7 October 2026, 09:30 · Session PL1 · Plinius19-89",
- "authors": "Jorge Pérez-Aracil, César Peláez-Rodríguez, Ronan McAdam, Antonello Squintu, Laura-María Cornejo-Bueno, Enrico Scoccimarro, Jürg Luterbacher, Matteo Giuliani, Elena Xoplaki, Andrea Castelleti, Sancho Salcedo-Sanz",
+ "authors": "Jorge Pérez-Aracil, César Peláez-Rodríguez, Ronan McAdam, Antonello Squintu, Laura-María Cornejo-Bueno, Enrico Scoccimarro, Jürg Luterbacher, Matteo Giuliani, Elena Xoplaki, Andrea Castelletti, Sancho Salcedo-Sanz",
  "steps": [
   {
    "img": "assets/talk/step0.webp",
@@ -45,12 +45,38 @@
   }
  ],
  "conclusions": [
-  "STCO-FS skilfully predicts summer heatwave days at 10 of 12 Mediterranean sites.",
-  "Skill is highest in the central and eastern Mediterranean; the western sites show little predictability.",
-  "Robust precursors are local and short-range: warm Tmax and a Z500 ridge over or next to the site, about 3–17 days ahead.",
-  "The CRO selects all eight Z500 clusters somewhere, but only five of them (four regional modes) show a significant anomaly before heatwaves in both train and test; the Alps–Balkans ridge does so at five neighbouring sites.",
-  "Dry soils are often selected 10–30 days ahead, but they are robust only in Turkey.",
+  "STCO-FS skilfully predicts summer heatwave days at 9 of 12 Mediterranean sites (test AUC 0.78–0.90), beyond the warming trend.",
+  "Skill is highest in the central and eastern Mediterranean; Murcia (0.65) and Algeria (0.60) show little predictability, and Tunisia adds nothing beyond the trend.",
+  "Robust precursors are local and short-range: warm Tmax and a Z500 ridge over or next to the site, about 3–20 days ahead.",
+  "The CRO selects all eight Z500 clusters somewhere, but only five of them (four regional modes) show a significant anomaly before heatwaves in both train and test; the Alps–Balkans ridge does so at five sites (Monaco, Croatia, Albania, Greece, Algeria).",
+  "Dry soils are often selected 10–30 days ahead, but they are confirmed in 2011–2021 only at Turkey (3–14 d) and Tunisia (10–20 d), and only Turkey's signal survives detrending.",
   "The KMeans clusters behave as varimax-rotated EOFs: regional modes of variability."
  ],
- "credits": "Universidad de Alcalá · CMCC · MedEWSa · ARTEMIS · Funded by the European Union"
+ "credits": "Universidad de Alcalá · CMCC · MedEWSa · ARTEMIS · Funded by the European Union",
+ "capability": [
+  {
+   "src": "presentacion/figuras/07a_skill_map.png",
+   "label": "Predicts",
+   "text": "Heatwave days in years it never saw: test AUC 0.78–0.90 at 9 of 12 sites, above a trend-only model.",
+   "href": "skill.html"
+  },
+  {
+   "src": "presentacion/figuras/07b_detection.png",
+   "label": "Detects",
+   "text": "Most observed heatwave days are flagged at 8 of 12 sites (Libya 80 of 96, Croatia 149 of 216), but with more than two false alarms per hit overall.",
+   "href": "skill.html"
+  },
+  {
+   "src": "presentacion/figuras/07e_precursor_clusters.png",
+   "label": "Locates",
+   "text": "Where the precursors are: warm air over the site and a Z500 ridge over or next to it.",
+   "href": "selection.html"
+  },
+  {
+   "src": "presentacion/figuras/07c_lead_times.png",
+   "label": "Explains",
+   "text": "How far ahead: local Tmax and a Z500 ridge mostly 3–20 days before the heatwave; remote SST only marks warm summers.",
+   "href": "lags.html"
+  }
+ ]
 }

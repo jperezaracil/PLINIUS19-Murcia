@@ -56,9 +56,7 @@
   "order": 200,
   "title": "Tmax: pre-heatwave anomaly maps per site (train 1950–2010)",
   "caption": "Each panel maps the plain anomaly R (σ, vs 1980–2010) on 1950–2010 heatwave days, averaged over the representative lag window (panel title) of the site's most-selected Tmax cluster. Thick black outline with boxed number = that cluster, thin grey outline = other clusters selected by ≥ 2 of 3 seeds at the site, small dots = p < 0.05 in the year-permutation test (shown on every second node), star = site; scale ±0.6 σ. Sardinia c5, Greece c2, Libya c7 and Egypt c10 are robust in all 3 seeds; the warm patch moves with the site, largely because heatwaves are defined from the site's own Tmax.",
-  "talk": true,
-  "talk_order": 6,
-  "slide": "18 · Results - Tmax",
+  "talk": false,
   "group": "presentation"
  },
  {
@@ -68,9 +66,7 @@
   "order": 210,
   "title": "Z500: pre-heatwave anomaly maps per site (train 1950–2010)",
   "caption": "Each panel maps the plain anomaly R (σ, vs 1980–2010) on 1950–2010 heatwave days, averaged over the representative lag window (panel title) of the site's most-selected Z500 cluster. Thick black outline with boxed number = that cluster, thin grey outline = other clusters selected by ≥ 2 of 3 seeds at the site, small dots = p < 0.05 (every second node), star = site; scale ±0.6 σ. Monaco c2 (3–17 d) and Albania c8 (3–16 d), a ridge over the site, are robust in all 3 seeds, and Croatia c2 (3–9 d) in 2 of 3.",
-  "talk": true,
-  "talk_order": 7,
-  "slide": "19 · Results – Geopotential height",
+  "talk": false,
   "group": "presentation"
  },
  {
@@ -110,9 +106,7 @@
   "order": 250,
   "title": "Med SST: pre-heatwave anomaly maps per site (train 1950–2010)",
   "caption": "Each panel maps the plain anomaly R (σ, vs 1980–2010) on 1950–2010 heatwave days, averaged over the representative lag window (panel title) of the site's most-selected Mediterranean SST cluster. Thick black outline with boxed number = that cluster, thin grey outline = other clusters selected by ≥ 2 of 3 seeds, small dots = p < 0.05 (every second node), star = site, grey = land; scale ±0.6 σ. In most panels the anomaly is positive over most of the basin, selected or not (median +0.33 σ for the 8 clusters selected by all 3 seeds), mainly reflecting the warming trend contained in R; none of the clusters shown is robust.",
-  "talk": true,
-  "talk_order": 8,
-  "slide": "20 · Results - Mediterranean SST",
+  "talk": false,
   "group": "presentation"
  },
  {
@@ -142,9 +136,7 @@
   "order": 280,
   "title": "N Atlantic SST: pre-heatwave anomaly maps per site (train 1950–2010)",
   "caption": "Each panel maps the plain anomaly R (σ, vs 1980–2010) on 1950–2010 heatwave days, averaged over the representative lag window (panel title) of the site's most-selected North Atlantic SST cluster. Thick black outline with boxed number = that cluster (other selected clusters are not outlined), small dots = p < 0.05, grey = land and excluded nodes, star = Murcia at the domain edge; scale ±0.4 σ. Syria selected no cluster of this field; Turkey c1 (40–47 d) is robust in both seeds that selected it, and no other panel is robust.",
-  "talk": true,
-  "talk_order": 9,
-  "slide": "21 · Results – Atlantic SST",
+  "talk": false,
   "group": "presentation"
  },
  {
@@ -174,9 +166,7 @@
   "order": 300,
   "title": "Tropical SST: pre-heatwave anomaly maps per site (train 1950–2010)",
   "caption": "Each panel maps the plain anomaly R (σ, vs 1980–2010) on 1950–2010 heatwave days, averaged over the representative lag window (panel title) of the site's most-selected tropical SST cluster. Thick black outline with boxed number = that cluster (other selected clusters are not outlined), small dots = p < 0.05, grey = land; scale ±0.4 σ. Turkey c2 (66–69 d) is robust in both seeds that selected it; no other panel is robust.",
-  "talk": true,
-  "talk_order": 10,
-  "slide": "22 · Results – Tropical SST",
+  "talk": false,
   "group": "presentation"
  },
  {
@@ -2145,10 +2135,8 @@
   "section": "Rotated modes and the CRO-selected precursors",
   "order": 300,
   "title": "Local Z500: rotated modes linked to the CRO-selected precursor clusters",
-  "caption": "The eight rotated modes of local Z500 (N = 8, as in the rotated-EOF maps above), linked to the CRO selection: a yellow star marks a site where a cluster of that mode, selected in at least 2 of the 3 seeds, has a significant pre-heatwave plain-anomaly contrast (year-permutation p < 0.05 in train 1950–2010 and in test 2011–2021, same sign); its label gives the site, the cluster when the mode holds two, and the lag window. All qualifying clusters are starred, not only each site's strongest one, so Albania, Greece and Algeria appear in two modes. Faded modes (RPC2, RPC4, RPC5, RPC8, their clusters in grey) have no such cluster at any site; the active ones are RPC3 (c2, c8), RPC1 (c5), RPC7 (c3) and RPC6 (c4).",
-  "talk": true,
-  "talk_order": 11,
-  "slide": "23 · Results – Rotated PC",
+  "caption": "The eight rotated modes of local Z500 (N = 8, the rotation shown on the EOF modes page), linked to the CRO selection: a yellow star marks a site where a cluster of that mode, selected in at least 2 of the 3 seeds, has a significant pre-heatwave plain-anomaly contrast (year-permutation p < 0.05 in train 1950–2010 and in test 2011–2021, same sign); its label gives the site, the cluster when the mode holds two, and the lag window. All qualifying clusters are starred, not only each site's strongest one, so Albania, Greece and Algeria appear in two modes. Faded modes (RPC2, RPC4, RPC5, RPC8, their clusters in grey) have no such cluster at any site; the active ones are RPC3 (c2, c8), RPC1 (c5), RPC7 (c3) and RPC6 (c4).",
+  "talk": false,
   "group": "eof"
  },
  {
@@ -2348,9 +2336,7 @@
   "order": 210,
   "title": "Local clusters coloured by the number of sites selecting them in 3/3 seeds",
   "caption": "Each local cluster is coloured by how many of the 12 sites selected it in all 3 seeds (white = no site, light grey = nodes not used); black dots are the sites. The highest count is soil moisture c6, north of the Black Sea (5 sites vs 1.7 expected by chance, p = 0.013), but it is not significant after false-discovery-rate correction (q = 0.73); no cluster is shared by more sites than chance after that correction.",
-  "talk": true,
-  "talk_order": 5,
-  "slide": "17 · Results – Shared clusters selected",
+  "talk": false,
   "group": "presentation"
  },
  {
@@ -2371,9 +2357,9 @@
   "title": "Study sites and heatwave days per summer, 1950–2010 vs 2011–2021",
   "caption": "Left: map of the 12 Mediterranean study sites. Right: mean number of heatwave days per summer (May–Aug) at each site in the training period 1950–2010 (grey) and the test period 2011–2021 (orange). Every site has more heatwave days per summer in the test period (e.g. Greece 4.3 vs 21.9).",
   "talk": true,
+  "group": "presentation",
   "talk_order": 1,
-  "slide": "13 · The study – A Mediterranean case study",
-  "group": "presentation"
+  "slide": "14 · The study – A Mediterranean case study"
  },
  {
   "src": "presentacion/figuras/02_clusters_local.png",
@@ -2384,7 +2370,7 @@
   "caption": "KMeans clusters of standardized anomalies (fitted on 1950–1970) for the six local fields on the 1° EuroMed box: Tmax (k = 10), Z500 (8), MSLP (6), soil moisture (10), precipitation (6) and Mediterranean SST (6). Clusters are numbered as in the predictor names, black dots are the 12 sites, and grey nodes are not used (sea for soil moisture, land and excluded nodes for SST). Each cluster can enter the model with a time lag of 3–30 d and a window of 1–30 d; CO2 and the Etesian index, also local predictors, are not drawn.",
   "talk": true,
   "talk_order": 2,
-  "slide": "14 · Clustering the variables",
+  "slide": "15 · Clustering the variables",
   "group": "presentation"
  },
  {
@@ -2396,7 +2382,7 @@
   "caption": "KMeans clusters at 2° of Z500 and MSLP over the North Atlantic–Europe, North Atlantic SST, Z500 Asia–North Pacific, tropical SST and tropical OLR (k = 3 each) and tropical Z500 (k = 2), plus the NAO, ENSO and IOD indices; black dots are the sites where they fall inside a domain. Remote predictors can enter with a time lag of 3–90 d and a window of 1–30 d. 'Tropical OLR' is the ERA5 net top-of-atmosphere longwave flux (= −OLR), labelled −OLR in the results figures.",
   "talk": true,
   "talk_order": 3,
-  "slide": "15 · Clustering the variables",
+  "slide": "16 · Clustering the variables",
   "group": "presentation"
  },
  {
@@ -2547,9 +2533,9 @@
   "title": "The CRO wrapper: from spatio-temporal predictors to selected drivers",
   "caption": "Conceptual view of STCO-FS: the Coral Reefs Optimization (CRO) searches about 10^219 combinations of clusters, time lags and windows, scores each candidate by the cross-validated F1 of a machine-learning model (logistic regression), and keeps a set of drivers, each a cluster region with a lag window before heatwave day t. The three drivers drawn are real choices of the Albania seed-42 run (Z500 c8, Tmax c2 and Med SST c6), which kept 26 of the 71 drivers in total. The hatched strip next to t marks days never used (time lag ≥ 3 d; at most 30 d for local and 90 d for remote drivers).",
   "talk": true,
+  "group": "presentation",
   "talk_order": 4,
-  "slide": "16 · The Feature Selection",
-  "group": "presentation"
+  "slide": "17 · The Feature Selection"
  },
  {
   "src": "clusters_mapas/figuras/remote_clusters.png",
@@ -2747,7 +2733,7 @@
   "section": "Cross-site synthesis",
   "order": 100,
   "title": "Significant and robust pairs by field and version; classes by site group",
-  "caption": "(a) For each field and version (R orange, D blue, W green): % of selected site × cluster pairs with p < 0.05 in training 1950–2010 (light) and robust, i.e. also p < 0.05 with the same sign in test 2011–2021 (dark). (b) Class of the consistently selected pairs by site group (West = Murcia, Algeria; Centre = Monaco, Sardinia, Croatia, Tunisia; South-east = Libya, Egypt; North-east = Albania, Greece, Turkey, Syria), local and remote; the rest up to 100% is 'none'. R gives the most training-significant pairs but replicates least (Med SST: 50% significant, 10% of those replicate), while for local fields D replicates best (36% vs 24% for R).",
+  "caption": "(a) For each field and version (R orange, D blue, W green): % of selected site × cluster pairs with p < 0.05 in training 1950–2010 (light) and robust, i.e. also p < 0.05 with the same sign in test 2011–2021 (dark). (b) Class of the consistently selected pairs by site group (West = Murcia, Algeria; Centre = Monaco, Sardinia, Croatia, Tunisia; South-east = Libya, Egypt; North-east = Albania, Greece, Turkey, Syria), local and remote; the rest up to 100% is 'none'. R gives as many or more training-significant pairs than D and W in every field except MSLP N Atlantic–Europe (W 21% vs R 17%), but replicates least (Med SST: 50% significant, 10% of those replicate), while for local fields D replicates best (36% vs 24% for R).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -2797,7 +2783,7 @@
   "section": "Cross-site statistics",
   "order": 220,
   "title": "Share of selections at rank 1 of their field, by version (train and test)",
-  "caption": "Share of CRO selections whose cluster has the largest |contrast| of its field at the same lags (rank 1), by field and version, for training (left) and test (right); black tick = chance (mean of 1/k); R and D are contrasts with all days of the same period, and W is already a contrast. Filled = p < 0.05, hollow = p ≥ 0.05 (cluster-label permutation by site). Over all fields, rank 1 occurs in 24% (R), 26% (D) and 22% (W) of training selections and 22–23% in test, against 19% by chance (p ≤ 0.001). This is only slightly better than chance and is concentrated in Tmax and local Z500.",
+  "caption": "Share of CRO selections whose cluster has the largest |contrast| of its field at the same lags (rank 1), by field and version, for training (left) and test (right); black tick = chance (mean of 1/k); R and D are contrasts with all days of the same period, and W is already a contrast. Filled = p < 0.05, hollow = p ≥ 0.05 (cluster-label permutation by site). Over all fields, rank 1 occurs in 24% (R), 26% (D) and 22% (W) of training selections and 22–23% in test, against 19% by chance (p ≤ 0.0013). This is only slightly better than chance; only Tmax and local Z500 are significant in both periods (soil moisture with D and W, Med SST with D and local MSLP with D only in training; N Atlantic SST with R and Z500 Asia–Pacific with W only in test).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -2827,7 +2813,7 @@
   "section": "Cross-site statistics",
   "order": 250,
   "title": "Selected vs non-selected clusters: |contrast| by field and version (test)",
-  "caption": "Same comparison as the training panel, for test 2011–2021: in-cluster |contrast| of selected (dark) vs non-selected clusters at the same lags (light); box = quartiles, whiskers = 5th–95th percentiles, axis 0–0.40σ. The medians are almost identical (R 0.056 vs 0.055, D 0.052 vs 0.052, W 0.043 vs 0.044σ), with small advantages for the selected clusters in Tmax and local Z500.",
+  "caption": "Same comparison as the training panel, for test 2011–2021: in-cluster |contrast| of selected (dark) vs non-selected clusters at the same lags (light); box = quartiles, whiskers = 5th–95th percentiles, axis 0–0.40σ. The medians are almost identical (R 0.056 vs 0.055, D 0.052 vs 0.052, W 0.043 vs 0.044σ), with small advantages for the selected clusters in Tmax (+0.015–0.021σ), local Z500 (+0.013–0.023σ) and N Atlantic SST (+0.016–0.044σ, only 36 selections).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -2837,7 +2823,7 @@
   "section": "Cross-site statistics",
   "order": 260,
   "title": "Clusters selected by ≥ 2 seeds in several sites: class, seeds and robustness",
-  "caption": "Rows: the first 26 clusters selected by ≥ 2 seeds in more than one site; columns: sites. Colour = class of the cluster in that site, number = seeds that selected it, * = robust, blank = not selected. The seed count is the number of seeds that selected the cluster, not the number of seeds that give that class.",
+  "caption": "Rows: the 26 clusters chosen by ≥ 2 seeds in the most sites (8 down to 5 sites; ties broken by total seed selections); columns: sites. Colour = class of the cluster in that site, number = seeds that selected it, * = robust, blank = not selected. The seed count is the number of seeds that selected the cluster, not the number of seeds that give that class.",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -2847,7 +2833,7 @@
   "section": "Field atlases: local fields",
   "order": 300,
   "title": "Tmax (local): detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) Tmax anomaly before heatwave days, at the representative lag window of the field's most-selected cluster in that site (label: site · cluster · window), which has a solid outline and a boxed number; other Tmax clusters selected in that site are dashed and were chosen at their own lags. Outline thickness = seeds (1–3), black = robust, grey = not robust; dots = p < 0.05 (year permutation, uncorrected); star = site; fixed scale ±0.6σ. D is the main atlas version; R and W are also drawn for Tmax (median spatial correlation with D: R 0.95, W 0.92).",
+  "caption": "One panel per site: training composite of the detrended (D) Tmax anomaly before heatwave days, at the representative lag window of the field's lead selected cluster in that site (robust in some version first, then most seeds; label: site · cluster · window), which has a solid outline and a boxed number; other Tmax clusters selected in that site are dashed and were chosen at their own lags. Outline thickness = seeds (1–3), black = robust, grey = not robust; dots = p < 0.05 (year permutation, uncorrected); star = site; fixed scale ±0.6σ. D is the main atlas version; R and W are also drawn for Tmax (median spatial correlation with D: R 0.95, W 0.92).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -2867,7 +2853,7 @@
   "section": "Field atlases: local fields",
   "order": 320,
   "title": "Tmax (local): within-year (W) composites by site, train 1950–2010",
-  "caption": "Same layout as the D atlas, with the within-year (W) Tmax anomaly, i.e. the heatwave-day value minus the mean of the non-heatwave days of the same year, which keeps only the synoptic and subseasonal part. Solid boxed cluster = the panel's cluster, dashed = other selected clusters; thickness = seeds, black = robust; dots = p < 0.05; star = site; scale ±0.6σ. Median spatial correlation with D across sites: 0.92.",
+  "caption": "Same layout as the D atlas, with the within-year (W) Tmax anomaly, i.e. the mean over the pre-heatwave lag window minus the mean of the same window on the non-heatwave days of that year, which keeps only the synoptic and subseasonal part. Solid boxed cluster = the panel's cluster, dashed = other selected clusters; thickness = seeds, black = robust; dots = p < 0.05; star = site; scale ±0.6σ. Median spatial correlation with D across sites: 0.92.",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -2877,7 +2863,7 @@
   "section": "Field atlases: local fields",
   "order": 330,
   "title": "Z500 (local): detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) local Z500 anomaly before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); other selected Z500 clusters are dashed and were chosen at their own lags; thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. No R atlas is drawn for local Z500 because R and D are nearly identical (median spatial correlation 0.99; W–D 0.98).",
+  "caption": "One panel per site: training composite of the detrended (D) local Z500 anomaly before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); other selected Z500 clusters are dashed and were chosen at their own lags; thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. No R atlas is drawn for local Z500 because R and D are nearly identical (median spatial correlation 0.99; W–D 0.98).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -2897,7 +2883,7 @@
   "section": "Field atlases: local fields",
   "order": 350,
   "title": "MSLP (local): detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) local MSLP anomaly before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); dashed = other selected MSLP clusters (chosen at their own lags); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. Median spatial correlation with D: R 0.94, W 0.84; the critical review finds little MSLP signal overall (only 3.5% of selected pairs are robust in D).",
+  "caption": "One panel per site: training composite of the detrended (D) local MSLP anomaly before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); dashed = other selected MSLP clusters (chosen at their own lags); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. Median spatial correlation with D: R 0.94, W 0.84; there is little MSLP signal overall (only 3.5% of the selected pairs are robust in D; PATRONES §7).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -2927,7 +2913,7 @@
   "section": "Field atlases: local fields",
   "order": 380,
   "title": "Soil moisture (local): detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) top-layer soil-moisture anomaly before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); dashed = other selected soil-moisture clusters (chosen at their own lags); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ (blue = drier). Median spatial correlation with D: R 0.93, W 0.65; the soil-moisture signals are mostly interannual or trend, i.e. dry summers over wide areas rather than a regional precursor.",
+  "caption": "One panel per site: training composite of the detrended (D) top-layer soil-moisture anomaly before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); dashed = other selected soil-moisture clusters (chosen at their own lags); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ (blue = drier). Median spatial correlation with D: R 0.93, W 0.65; the soil-moisture signals are mostly interannual or trend, i.e. dry summers over wide areas rather than a regional precursor.",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -2957,7 +2943,7 @@
   "section": "Field atlases: local fields",
   "order": 410,
   "title": "Precipitation (local): detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) precipitation anomaly before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); dashed = other selected precipitation clusters (chosen at their own lags); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. No R atlas is drawn because R and D are nearly identical (median spatial correlation 0.98; W–D 0.84).",
+  "caption": "One panel per site: training composite of the detrended (D) precipitation anomaly before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); dashed = other selected precipitation clusters (chosen at their own lags); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. No R atlas is drawn because R and D are nearly identical (median spatial correlation 0.98; W–D 0.84).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -2977,7 +2963,7 @@
   "section": "Field atlases: local fields",
   "order": 430,
   "title": "Mediterranean SST: detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) Mediterranean SST anomaly before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); dashed = other selected SST clusters (chosen at their own lags); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. D is the most informative version for this field (the R signal is mostly trend); median spatial correlation with D: R 0.78, W 0.69.",
+  "caption": "One panel per site: training composite of the detrended (D) Mediterranean SST anomaly before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); dashed = other selected SST clusters (chosen at their own lags); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. D is the most informative version for this field (the R signal is mostly trend); median spatial correlation with D: R 0.78, W 0.69.",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3007,7 +2993,7 @@
   "section": "Field atlases: remote fields",
   "order": 500,
   "title": "Z500 N Atlantic–Europe: detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) Z500 anomaly over the North Atlantic–Europe box (k = 3 clusters, 2°) before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); dashed = other selected clusters (chosen at their own lags). Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05 (year permutation, uncorrected); star = site; fixed scale ±0.4σ. Median spatial correlation with D: R 0.95, W 0.81; no selected Z500 N Atlantic–Europe pair is robust in any version.",
+  "caption": "One panel per site: training composite of the detrended (D) Z500 anomaly over the North Atlantic–Europe box (k = 3 clusters, 2°) before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); dashed = other selected clusters (chosen at their own lags). Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05 (year permutation, uncorrected); star = site; fixed scale ±0.4σ. Median spatial correlation with D: R 0.95, W 0.81; no selected Z500 N Atlantic–Europe pair is robust in any version.",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3037,7 +3023,7 @@
   "section": "Field atlases: remote fields",
   "order": 530,
   "title": "MSLP N Atlantic–Europe: detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) MSLP anomaly over the North Atlantic–Europe box (k = 3) before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); dashed = other selected clusters (chosen at their own lags). Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.4σ. Median spatial correlation with D: R 0.94, W 0.84; no selected MSLP N Atlantic–Europe pair is robust in any version.",
+  "caption": "One panel per site: training composite of the detrended (D) MSLP anomaly over the North Atlantic–Europe box (k = 3) before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); dashed = other selected clusters (chosen at their own lags). Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.4σ. Median spatial correlation with D: R 0.94, W 0.84; no selected MSLP N Atlantic–Europe pair is robust in any version.",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3067,7 +3053,7 @@
   "section": "Field atlases: remote fields",
   "order": 560,
   "title": "N Atlantic SST: detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) North Atlantic SST anomaly (k = 3) before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); dashed = other selected clusters (chosen at their own lags); 'not selected' = field never chosen at that site. Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. D is the most informative version for this field (median spatial correlation with D: R 0.91, W 0.44); the robust Turkey c1 panel shows a year-to-year signal, not a synoptic one.",
+  "caption": "One panel per site: training composite of the detrended (D) North Atlantic SST anomaly (k = 3) before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); dashed = other selected clusters (chosen at their own lags); 'not selected' = field never chosen at that site. Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. D is the most informative version for this field (median spatial correlation with D: R 0.91, W 0.44); the robust Turkey c1 panel shows a year-to-year signal, not a synoptic one.",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3097,7 +3083,7 @@
   "section": "Field atlases: remote fields",
   "order": 590,
   "title": "Tropical SST: detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) tropical SST anomaly (k = 3) before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); dashed = other selected clusters (chosen at their own lags). Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. Median spatial correlation with D: R 0.91, W 0.56; D is the most informative version (R is mostly trend).",
+  "caption": "One panel per site: training composite of the detrended (D) tropical SST anomaly (k = 3) before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); dashed = other selected clusters (chosen at their own lags). Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. Median spatial correlation with D: R 0.91, W 0.56; D is the most informative version (R is mostly trend).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3127,7 +3113,7 @@
   "section": "Field atlases: remote fields",
   "order": 620,
   "title": "Tropical −OLR: detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) tropical −OLR anomaly (net TOA longwave, k = 3) before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); dashed = other selected clusters (chosen at their own lags). Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. Median spatial correlation with D: R 0.89, W 0.79; the only robust pair is Egypt c2 (black outline), robust in W in a single seed.",
+  "caption": "One panel per site: training composite of the detrended (D) tropical −OLR anomaly (net TOA longwave, k = 3) before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); dashed = other selected clusters (chosen at their own lags). Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. Median spatial correlation with D: R 0.89, W 0.79; the only robust pair is Egypt c2 (black outline), robust in W in a single seed.",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3157,7 +3143,7 @@
   "section": "Field atlases: remote fields",
   "order": 650,
   "title": "Tropical Z500: detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) tropical Z500 anomaly (k = 2) before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); dashed = other selected clusters (chosen at their own lags). Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. Median spatial correlation with D: R 0.82, W 0.80; no selected tropical Z500 pair is significant in D.",
+  "caption": "One panel per site: training composite of the detrended (D) tropical Z500 anomaly (k = 2) before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); dashed = other selected clusters (chosen at their own lags). Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. Median spatial correlation with D: R 0.82, W 0.80; no selected tropical Z500 pair is significant in D.",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3187,7 +3173,7 @@
   "section": "Field atlases: remote fields",
   "order": 680,
   "title": "Z500 Asia–N Pacific: detrended (D) composites by site, train 1950–2010",
-  "caption": "One panel per site: training composite of the detrended (D) Z500 anomaly over Asia–North Pacific (k = 3) before heatwave days, at the representative window of the field's most-selected cluster in that site (solid outline, boxed number); dashed = other selected clusters (chosen at their own lags); 'not selected' = never chosen at that site. Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. Median spatial correlation with D: R 0.92, W 0.83; this field's significant R pairs are mostly trend (25% of pairs significant in R vs 4% in D).",
+  "caption": "One panel per site: training composite of the detrended (D) Z500 anomaly over Asia–North Pacific (k = 3) before heatwave days, at the representative window of the field's lead selected cluster in that site (robust in some version first, then most seeds; solid outline, boxed number); dashed = other selected clusters (chosen at their own lags); 'not selected' = never chosen at that site. Thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. Median spatial correlation with D: R 0.92, W 0.83; this field's significant R pairs are mostly trend (25% of pairs significant in R vs 4% in D).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3257,7 +3243,7 @@
   "section": "Per-site maps: local clusters",
   "order": 840,
   "title": "Albania: R, D and W maps at the selected local clusters (train 1950–2010)",
-  "caption": "Training composites of R, D and W before heatwave days, one row per consistently selected local cluster at its representative window. The rows are Z500 c8 (3–16 d), Tmax c2 (4–17 d), Z500 c5 (3–7 d), MSLP c3 (3–20 d) and Tmax c6 (27–29 d) (10 more are omitted); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. The Balkan ridge is the same in all three columns, the Tmax c2 warmth stays concentrated over the Balkans in W, and the trend pair Tmax c6 is nearly empty in D and W.",
+  "caption": "Training composites of R, D and W before heatwave days, one row per consistently selected local cluster at its representative window. The rows are Z500 c8 (3–16 d), Tmax c2 (4–17 d), Z500 c5 (3–7 d), MSLP c3 (3–20 d) and Tmax c6 (27–29 d) (10 more are omitted); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. The Balkan ridge is the same in all three columns, the Tmax c2 warmth stays concentrated over the Balkans in W, and the trend pair Tmax c6 keeps a similar weak warmth inside the cluster in all three columns (R +0.08σ, D +0.10σ, W +0.08σ) but loses its significant nodes (48% of the cluster area with p < 0.05 in R, 22% in D, 6% in W).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3327,7 +3313,7 @@
   "section": "Per-site maps: local clusters",
   "order": 910,
   "title": "Algeria: R, D and W maps at the selected local clusters (train 1950–2010)",
-  "caption": "Training composites of R, D and W before heatwave days, one row per consistently selected local cluster at its representative window. The rows are Z500 c2 (3–6 d), Z500 c4 (6–20 d), SM c5 (22–30 d), Tmax c3 (18–30 d) and Med SST c1 (9–30 d) (20 more are omitted); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. The 3–6 d Z500 maximum over Iberia, the Gulf of Lion and northern Algeria is the same in R, D and W, while the slower fields keep |W| ≤ 0.11 and no significance.",
+  "caption": "Training composites of R, D and W before heatwave days, one row per consistently selected local cluster at its representative window. The rows are Z500 c2 (3–6 d), Z500 c4 (6–20 d), SM c5 (22–30 d), Tmax c3 (18–30 d) and Med SST c1 (9–30 d) (20 more are omitted); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; star = site; scale ±0.6σ. The 3–6 d Z500 maximum over Iberia, the Gulf of Lion and northern Algeria is the same in R, D and W, while in the slower fields W stays at |W| ≤ 0.11 and is not significant (SM c5 and Tmax c3 are significant only in R and D).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3337,7 +3323,7 @@
   "section": "Per-site maps: remote clusters",
   "order": 1000,
   "title": "Murcia: R, D and W maps at the selected remote clusters (train 1950–2010)",
-  "caption": "Training composites of the plain (R), detrended (D) and within-year (W) anomaly before heatwave days, one row per consistently selected remote cluster at its representative window (label: field, cluster, window, class). The rows are N Atl SST c3, MSLP NAE c1, N Atl SST c1, Trop SST c1 and Z500 NAE c1 (8 more are omitted); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. The warm N Atlantic SST band (c3) appears only in D, and the tropical SST R panel is saturated.",
+  "caption": "Training composites of the plain (R), detrended (D) and within-year (W) anomaly before heatwave days, one row per consistently selected remote cluster at its representative window (label: field, cluster, window, class). The rows are N Atl SST c3, MSLP NAE c1, N Atl SST c1, Trop SST c1 and Z500 NAE c1 (8 more are omitted); thickness = seeds, black = robust, grey = not robust; dots = p < 0.05; scale ±0.4σ. The warm N Atlantic SST band (c3) appears only in D, and the tropical SST R panel is shifted negative by the trend (panel mean −0.17σ, 13% of the area at the scale limit; 0% in D).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3387,7 +3373,7 @@
   "section": "Per-site maps: remote clusters",
   "order": 1050,
   "title": "Greece: R, D and W maps at the selected remote clusters (train 1950–2010)",
-  "caption": "Training composites of R, D and W (stacked) before heatwave days for the two consistently selected remote clusters, Trop SST c3 (41–51 d) and Z500 Asia-Pac c2 (13–23 d), at their representative windows; thickness = seeds, grey = not robust; dots = p < 0.05; scale ±0.4σ. The R signal of Z500 Asia-Pacific c2 does not survive in D or W. Inside Trop SST c3 the training values are −0.23σ in R (mostly period shift), −0.19σ in D and −0.11σ in W, and ≈ 0 in test.",
+  "caption": "Training composites of R, D and W (stacked) before heatwave days for the two consistently selected remote clusters, Trop SST c3 (41–51 d) and Z500 Asia-Pac c2 (13–23 d), at their representative windows; thickness = seeds, grey = not robust; dots = p < 0.05; scale ±0.4σ. The R signal of Z500 Asia-Pacific c2 does not survive in D or W. Inside Trop SST c3 the training values are −0.23σ in R (mostly period shift), −0.19σ in D and −0.11σ in W, and its test contrasts are ≈ 0 (Rc +0.03σ, W −0.01σ; the raw test R is +0.29σ because of the 2011–2021 shift).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3457,7 +3443,7 @@
   "section": "Per-site lag profiles",
   "order": 1200,
   "title": "Murcia: R, D and W anomaly vs lag at the selected clusters (train and test)",
-  "caption": "In-cluster anomaly at each individual lag for the clusters on Murcia's map slides (top row local, lags 3–30 d; bottom row remote, 3–90 d): R orange, D blue, W green; thick = train 1950–2010, thin = test 2011–2021; grey shading = window chosen by each seed (darker where seeds overlap). The y-axis is fixed at ±1.5σ (local) and ±0.6σ (remote); test R and D are raw means that include the warm 2011–2021 shift, and curves that leave the axis are clipped with a triangle. Tmax c8 and c9 drop sharply up to lag 10 (c8 ≈ 0 by lags 16–20, c9 stays at 0.1–0.2σ), and N Atl SST c3 is flat.",
+  "caption": "In-cluster anomaly at each individual lag for the clusters on Murcia's map slides (top row local, lags 3–30 d; bottom row remote, 3–90 d): R orange, D blue, W green; thick = train 1950–2010, thin = test 2011–2021; grey shading = window chosen by each seed (darker where seeds overlap). The y-axis is fixed at ±1.5σ (local) and ±0.6σ (remote); test R and D are raw means that include the warm 2011–2021 shift, and curves that leave the axis are clipped with a triangle. In training, Tmax c9 drops sharply by lag 10 (R 0.73 → 0.10σ) and then stays near 0.1σ (≈ 0.2σ in D), while Tmax c8 declines more gradually (R 0.41σ at lag 3, 0.28σ at lag 10) to ≈ 0 by lags 16–20 in R and W; N Atl SST c3 is flat.",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3477,7 +3463,7 @@
   "section": "Per-site lag profiles",
   "order": 1220,
   "title": "Sardinia: R, D and W anomaly vs lag at the selected clusters (train and test)",
-  "caption": "In-cluster anomaly at each lag for the clusters on Sardinia's map slides (top local, 3–30 d; bottom remote, 3–90 d): R orange, D blue, W green; thick = train 1950–2010, thin = test 2011–2021; shading = windows chosen by the seeds. Fixed y-axis ±1.5σ / ±0.6σ; the test R curve of Med SST c6 leaves the axis (triangle) because of the warm 2011–2021 shift. Tmax c5 W is 0.57σ at lags 3–7 but 0.04σ at lags 8–14: the information is in the first week.",
+  "caption": "In-cluster anomaly at each lag for the clusters on Sardinia's map slides (top local, 3–30 d; bottom remote, 3–90 d): R orange, D blue, W green; thick = train 1950–2010, thin = test 2011–2021; shading = windows chosen by the seeds. Fixed y-axis ±1.5σ / ±0.6σ; the test R curve of Med SST c6 leaves the axis (triangle) because of the warm 2011–2021 shift. In training, Tmax c5 W is 0.57σ at lags 3–7 but 0.04σ at lags 8–14: the information is in the first week.",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3517,7 +3503,7 @@
   "section": "Per-site lag profiles",
   "order": 1260,
   "title": "Turkey: R, D and W anomaly vs lag at the selected clusters (train and test)",
-  "caption": "In-cluster anomaly at each lag for the clusters on Turkey's map slides (top local, 3–30 d; bottom remote, 3–90 d): R orange, D blue, W green; thick = train 1950–2010, thin = test 2011–2021; shading = windows chosen by the seeds; fixed y-axis ±1.5σ / ±0.6σ with clipped test curves marked by triangles. In training, dry soil SM c2 has W −0.64σ at 3 d, −0.14σ at 10 d and ≈ 0 from 14 d, while R and D stay at −0.16 to −0.21σ over 14–30 d (a synoptic part plus a year-to-year part). The test R and D curves of Med SST c3 leave the axis.",
+  "caption": "In-cluster anomaly at each lag for the clusters on Turkey's map slides (top local, 3–30 d; bottom remote, 3–90 d): R orange, D blue, W green; thick = train 1950–2010, thin = test 2011–2021; shading = windows chosen by the seeds; fixed y-axis ±1.5σ / ±0.6σ with clipped test curves marked by triangles. In training, dry soil SM c2 has W −0.64σ at 3 d, −0.14σ at 10 d and ≈ 0 from 14 d, while R and D stay at −0.16 to −0.21σ over 14–30 d (a synoptic part plus a year-to-year part). The test R and D curves of Med SST c3 and the test R curves of N Atl SST c1 and Trop SST c2 leave the axis (triangles).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3557,7 +3543,7 @@
   "section": "Per-site lag profiles",
   "order": 1300,
   "title": "Tunisia: R, D and W anomaly vs lag at the selected clusters (train and test)",
-  "caption": "In-cluster anomaly at each lag for the clusters on Tunisia's map slides (top local, 3–30 d; bottom remote, 3–90 d): R orange, D blue, W green; thick = train 1950–2010, thin = test 2011–2021; shading = windows chosen by the seeds; fixed y-axis ±1.5σ / ±0.6σ. Over the site, Tmax c5 has W 0.51σ at lags 3–7 but 0.00σ at lags 8–24, so the signal belongs to the start of the episode. The test R curves of Trop SST c1 and Trop Z500 c1 leave the axis (triangles).",
+  "caption": "In-cluster anomaly at each lag for the clusters on Tunisia's map slides (top local, 3–30 d; bottom remote, 3–90 d): R orange, D blue, W green; thick = train 1950–2010, thin = test 2011–2021; shading = windows chosen by the seeds; fixed y-axis ±1.5σ / ±0.6σ. Over the site, Tmax c5 has a training W of 0.51σ at lags 3–7 but 0.00σ at lags 8–24 (test: 0.23σ at lags 3–7), so the signal belongs to the start of the episode. The test R curves of Trop SST c1 and Trop Z500 c1 leave the axis (triangles).",
   "talk": false,
   "group": "tres_versiones"
  },
@@ -3570,5 +3556,65 @@
   "caption": "In-cluster anomaly at each lag for the clusters on Algeria's map slides (top local, 3–30 d; bottom remote, 3–90 d): R orange, D blue, W green; thick = train 1950–2010, thin = test 2011–2021; shading = windows chosen by the seeds; fixed y-axis ±1.5σ / ±0.6σ. The Z500 c2 profile peaks at lag 3 (≈ 0.65σ) and falls to ≈ 0.2σ by lag 7. The test R curves of N Atl SST c3 and Trop Z500 c1 leave the axis (triangles).",
   "talk": false,
   "group": "tres_versiones"
+ },
+ {
+  "src": "presentacion/figuras/07a_skill_map.png",
+  "page": "skill",
+  "section": "What the model can do",
+  "order": 10,
+  "title": "Skill in years the model never saw: test AUC and F1 by site (2011–2021)",
+  "caption": "Left: test AUC of each site (mean of the 3 seeds) in 2011–2021, years the CRO never saw. Right: test F1 of the model (bar) against always predicting a heatwave day (tick), sites ordered by AUC. Nine sites reach AUC 0.78–0.90, all above a trend-only model; Murcia (0.65) is weak but above the trend, while Tunisia (0.73; trend alone 0.74) and Algeria (0.60; trend alone 0.61) add nothing beyond the warming trend.",
+  "talk": true,
+  "group": "new",
+  "talk_order": 5,
+  "slide": "18 · Results – Skill in unseen years"
+ },
+ {
+  "src": "presentacion/figuras/07b_detection.png",
+  "page": "skill",
+  "section": "What the model can do",
+  "order": 20,
+  "title": "Heatwave days detected in 2011–2021: Libya and Croatia",
+  "caption": "Each column is one summer (May–August) of the test period: black = observed heatwave days, red dots = days the model flags (final model of the run with the median test F1 of the 3 seeds, rebuilt exactly from the CRO solution). Libya and Croatia are among the best sites (AUC 0.90 and 0.85). Libya: 80 of 96 heatwave days flagged, with 175 false alarms; Croatia: 149 of 216, with 203 false alarms. Over all runs the model raises more than two false alarms per hit.",
+  "talk": true,
+  "group": "new",
+  "talk_order": 6,
+  "slide": "19 · Results – Detecting heatwave days"
+ },
+ {
+  "src": "presentacion/figuras/07c_lead_times.png",
+  "page": "lags",
+  "section": "What the model can do",
+  "order": 5,
+  "title": "How far ahead the precursors act, by predictor type",
+  "caption": "Lag windows (days before the heatwave, log scale; 3 d is the shortest lag allowed). Grey: every site × cluster pair selected in ≥ 2 seeds. Colour: confirmed precursors, i.e. selected in ≥ 2 seeds and, in at least one of those seeds, significant in 1950–2010 after the Benjamini–Hochberg correction and again with the same sign in 2011–2021, drawn at the window of their best robust seed; faded = year-to-year or trend signal with no within-summer anomaly (so the lag is not a lead time); dashed = cooler/lower before heatwaves. Tmax at 8 sites and a Z500 ridge at 6 lead by 3–20 days; MSLP, soil moisture and Mediterranean SST at 1–2 sites; remote SST only at Turkey, as a year-to-year signal. Precipitation, remote Z500/MSLP/OLR, the Etesians, CO2 and the indices have no confirmed pair and are not drawn.",
+  "talk": true,
+  "group": "new",
+  "talk_order": 9,
+  "slide": "22 · Results – How far ahead"
+ },
+ {
+  "src": "presentacion/figuras/07e_precursor_clusters.png",
+  "page": "selection",
+  "section": "What the model can do",
+  "order": 5,
+  "title": "Where the precursors are: Tmax and Z500 regions confirmed out of sample",
+  "caption": "Coloured regions (KMeans clusters) precede heatwaves at the sites written on them: warmer Tmax (top) or a higher Z500, i.e. a ridge (bottom), before heatwave days; grey = cooler before heatwaves. Only confirmed precursors are shown: selected in ≥ 2 seeds, FDR-significant in 1950–2010 and significant with the same sign in 2011–2021 in at least one seed. Tmax: 8 sites, mostly over the site itself; Z500: 6 sites, ridges over or next to the site.",
+  "talk": true,
+  "group": "new",
+  "talk_order": 7,
+  "slide": "20 · Results – Where the precursors are"
+ },
+ {
+  "src": "presentacion/figuras/07f_sst_clusters.png",
+  "page": "selection",
+  "section": "What the model can do",
+  "order": 7,
+  "title": "SST before heatwaves: Mediterranean, North Atlantic and tropical clusters",
+  "caption": "Fill: clusters whose SST is significantly warmer (red) or cooler (blue) before heatwave days in 1950–2010 at sites that select them in ≥ 2 seeds, darker = more sites. Thick outline: confirmed out of sample (same rule as the lead-time figure), with the site and the window of its best robust seed; * = year-to-year signal with no within-summer anomaly. Warmer seas precede heatwaves at many sites in 1950–2010, but only Greece (Mediterranean, 4–10 d) holds as a within-summer precursor; Turkey's Atlantic and tropical SST mark warm summers.",
+  "talk": true,
+  "group": "new",
+  "talk_order": 8,
+  "slide": "21 · Results – Sea surface temperature"
  }
 ]

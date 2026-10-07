@@ -122,13 +122,15 @@ def page_html(p, figs, extra=""):
     parts = [f"<h1>{esc(p['title'])}</h1>", f'<p class="lede">{esc(p["blurb"])}</p>']
     if len(secs) > 1:
         toc = "".join(f'<a href="#sec-{slug(s)}">{esc(s)} <span class="n">{len(v)}</span></a>' for s, v in secs.items())
+        if extra:
+            toc += '<a href="#sec-tables">Skill tables</a>'
         parts.append(f'<nav class="toc">{toc}</nav>')
-    if extra:
-        parts.append(extra)
     for s, v in secs.items():
         parts.append(f'<section><h2 id="sec-{slug(s)}">{esc(s)}</h2>')
         parts += [figure_card(f) for f in v]
         parts.append("</section>")
+    if extra:                                          # tables after the figures
+        parts.append(extra)
     return "\n".join(parts)
 
 
@@ -182,7 +184,9 @@ def index_html(ov, pages, figs, talk, src_root, by_src):
     steps = "".join(f'<figure class="step"><a class="zoom" href="{esc(s["img"])}"><img src="{esc(s["img"])}" alt="{esc(s["label"])}" '
                     f'loading="lazy"></a><figcaption>{esc(s["label"])}</figcaption></figure>' for s in ov["steps"])
     concl = "".join(f'<li><span class="num">{i:02d}</span>{esc(c)}</li>' for i, c in enumerate(ov["conclusions"], 1))
-    cards = [("talk.html", "Talk figures", f"{len(talk)} figures", thumb(src_root, ov["talk_cover"]))]
+    cap = "".join(f'<a class="capcard" href="{esc(c["href"])}"><img src="{esc(by_src[c["src"]]["img"])}" alt="" loading="lazy">'
+                  f'<h3>{esc(c["label"])}</h3><p>{esc(c["text"])}</p></a>' for c in ov.get("capability", []))
+    cards = [("talk.html", "Talk", f"{len(talk)} figures", thumb(src_root, ov["talk_cover"]))]
     cards += [(f"{p['id']}.html", p["title"], f"{sum(f['page'] == p['id'] for f in figs)} figures",
                thumb(src_root, p["cover"])) for p in pages]
     grid = "".join(f'<a class="pcard" href="{h}"><img src="{im}" alt="" loading="lazy"><h3>{esc(t)}</h3>'
@@ -194,6 +198,8 @@ def index_html(ov, pages, figs, talk, src_root, by_src):
   <a class="zoom" href="{esc(hero['img'])}"><img src="{esc(hero['img'])}" alt="{esc(hero['title'])}"></a>
 </section>
 <div class="stats">{stats}</div>
+<h2>What the model can do</h2>
+<div class="cap">{cap}</div>
 <h2>Framework</h2>
 <div class="steps">{steps}</div>
 <h2>Conclusions</h2>

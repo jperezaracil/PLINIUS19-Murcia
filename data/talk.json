@@ -1,97 +1,76 @@
 [
  {
   "src": "presentacion/figuras/01_localizaciones_B.png",
-  "slide": "13 · The study – A Mediterranean case study",
+  "slide": "14 · The study – A Mediterranean case study",
   "headline": "",
   "bullets": []
  },
  {
   "src": "presentacion/figuras/02_clusters_local.png",
-  "slide": "14 · Clustering the variables",
-  "headline": "",
-  "bullets": []
- },
- {
-  "src": "presentacion/figuras/02_clusters_remote.png",
   "slide": "15 · Clustering the variables",
   "headline": "",
   "bullets": []
  },
  {
-  "src": "presentacion/figuras/03_cro_concepto.png",
-  "slide": "16 · The Feature Selection",
+  "src": "presentacion/figuras/02_clusters_remote.png",
+  "slide": "16 · Clustering the variables",
   "headline": "",
   "bullets": []
  },
  {
-  "src": "presentacion/figuras/04c_shared_local.png",
-  "slide": "17 · Results – Shared clusters selected",
-  "headline": "Each site has its own robust precursors",
+  "src": "presentacion/figuras/03_cro_concepto.png",
+  "slide": "17 · The Feature Selection",
+  "headline": "",
+  "bullets": []
+ },
+ {
+  "src": "presentacion/figuras/07a_skill_map.png",
+  "slide": "18 · Results – Skill in unseen years",
+  "headline": "Skilful in years the model never saw",
   "bullets": [
-   "99 site–cluster pairs chosen by all 3 seeds, vs 72 expected by chance",
-   "Precursors are mostly local: sites share them only at chance level",
-   "Most shared: soil moisture north-east of the Black Sea (5 sites)"
+   "Test AUC 0.78–0.90 at 9 of 12 sites, above a trend-only model",
+   "F1 twice that of always predicting a heatwave (0.38 vs 0.19)",
+   "Weak in the south-west (Murcia 0.65, Algeria 0.60)"
   ]
  },
  {
-  "src": "presentacion/figuras/05c_atlas_L_t2m_max.png",
-  "slide": "18 · Results - Tmax",
-  "headline": "Local warming precedes heatwaves by up to 3 weeks",
+  "src": "presentacion/figuras/07b_detection.png",
+  "slide": "19 · Results – Detecting heatwave days",
+  "headline": "Detects most heatwave days",
   "bullets": [
-   "Warm air over or next to the site, 3–20 days ahead",
-   "Confirmed in 2011–2021 at 7 of 12 sites",
-   "Strongest: Sardinia (+0.67σ) and Greece (+0.49σ)"
+   "Libya: 80 of 96 heatwave days flagged",
+   "Croatia: 149 of 216",
+   "At a price: false alarms (Libya 175, Croatia 203)"
   ]
  },
  {
-  "src": "presentacion/figuras/05c_atlas_L_z500.png",
-  "slide": "19 · Results – Geopotential height",
-  "headline": "A nearby ridge precedes heatwaves by up to 2–3 weeks",
+  "src": "presentacion/figuras/07e_precursor_clusters.png",
+  "slide": "20 · Results – Where the precursors are",
+  "headline": "Warm air over the site and a Z500 ridge over or next to it",
   "bullets": [
-   "Ridge over or next to the site, 3–17 days ahead",
-   "Confirmed in 2011–2021 at Monaco, Croatia, Albania and Algeria",
-   "Strongest: Croatia (+0.52σ) and Algeria (+0.46σ)"
+   "Tmax confirmed at 8 sites, mostly over the site",
+   "Z500 ridges at 6 sites, often next to the site",
+   "Alps–Balkans ridge shared by Monaco, Croatia, Albania, Greece and Algeria"
   ]
  },
  {
-  "src": "presentacion/figuras/05c_atlas_L_sstMed.png",
-  "slide": "20 · Results - Mediterranean SST",
-  "headline": "Heatwaves come with a warmer Mediterranean",
+  "src": "presentacion/figuras/07f_sst_clusters.png",
+  "slide": "21 · Results – Sea surface temperature",
+  "headline": "Warmer seas before heatwaves",
   "bullets": [
-   "Up to +0.67σ before heatwaves in 1950–2010",
-   "Significant at 7 of 12 sites",
-   "In 2011–2021 the whole basin is 1–1.5σ warmer, which blurs the signal"
+   "Warmer Mediterranean before heatwaves at 6 sites (1950–2010)",
+   "Confirmed out of sample at Greece (Black Sea, 4–10 days)",
+   "Atlantic and tropical SST: year-to-year signal (Turkey)"
   ]
  },
  {
-  "src": "presentacion/figuras/05c_atlas_A_sst.png",
-  "slide": "21 · Results – Atlantic SST",
-  "headline": "Remote SST adds longer lead times, up to 3 months",
+  "src": "presentacion/figuras/07c_lead_times.png",
+  "slide": "22 · Results – How far ahead",
+  "headline": "Most precursors act 3–20 days ahead",
   "bullets": [
-   "Selected 2 weeks to 3 months ahead",
-   "Heatwave days slightly warmer (+0.2 to +0.4σ) at 6 sites in 1950–2010",
-   "Confirmed in 2011–2021 and after detrending at Turkey (40–47 days)",
-   "Blue = 1950–2010 cooler than the 1980–2010 reference"
-  ]
- },
- {
-  "src": "presentacion/figuras/05c_atlas_T_sst.png",
-  "slide": "22 · Results – Tropical SST",
-  "headline": "Tropical SST adds lead times of 1–3 months",
-  "bullets": [
-   "Heatwave days slightly warmer (+0.1 to +0.3σ) at 7 sites in 1950–2010",
-   "Confirmed in 2011–2021 and after detrending at Turkey (66–69 days)",
-   "Blue = 1950–2010 cooler than the 1980–2010 reference"
-  ]
- },
- {
-  "src": "eof/figuras/L_z500_2b_reof_selected.png",
-  "slide": "23 · Results – Rotated PC",
-  "headline": "Precursors are regional circulation modes, shared by neighbouring sites",
-  "bullets": [
-   "KMeans clusters match varimax-rotated EOFs (r = 0.76–0.95)",
-   "4 of the 8 modes precede heatwaves in 1950–2010 and 2011–2021",
-   "Alps–Balkans ridge: Monaco, Croatia, Albania, Greece and Algeria, 3–20 days ahead"
+   "Tmax and Z500 ridge: 3–20 days (3 d = shortest lag allowed)",
+   "Soil moisture and MSLP: up to 3 weeks, at few sites",
+   "Remote SST: 6–10 weeks, but only as a year-to-year signal"
   ]
  }
 ]
